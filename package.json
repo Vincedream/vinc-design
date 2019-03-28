@@ -1,0 +1,27 @@
+{
+  "name": "vinc-design",
+  "version": "1.0.0",
+  "description": "a react component lib",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress",
+    "watch": "webpack --watch --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "react": "^16.2.0",
+    "style-loader": "^0.20.3",
+    "webpack": "4.19.1",
+    "webpack-cli": "2.1.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
