@@ -1,5 +1,8 @@
 module.exports = {
     "extends": "airbnb",
+    "plugins": [
+        'react',
+    ],
     "rules": { 
         "quotes": ["error", "single"], 
         "semi": ["error", "never"],
