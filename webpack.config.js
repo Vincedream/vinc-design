@@ -106,11 +106,21 @@ module.exports = (env, argv) => {
         },
       ],
     },
+    resolve: {
+      alias: {
+        '@common': path.resolve(__dirname, 'src/common/'),
+        '@components': path.resolve(__dirname, 'src/common/components/'),
+        '@constants': path.resolve(__dirname, 'src/common/constants/'),
+        '@icons': path.resolve(__dirname, 'src/common/icons/'),
+        '@utils': path.resolve(__dirname, 'src/common/utils/'),
+      },
+    },
     devServer: {
       compress: true,
       port: 9000,
       hot: true,
       open: true,
+      historyApiFallback: true,
     },
   }
 }
