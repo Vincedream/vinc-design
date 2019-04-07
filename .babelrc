@@ -9,7 +9,8 @@
             "include": ["transform-es2015-arrow-functions"],
             "exclude": ["transform-es2015-for-of"]
         }],
-        "react"
+        "react",
+        "stage-1"
     ],
     "plugins": [
         "transform-runtime",
