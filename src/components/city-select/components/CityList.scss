@@ -1,0 +1,45 @@
+.city-select-list {
+    width: 100%;
+    padding: 0 16px;
+    flex: 1;
+    height: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    .city-select-list-wrap {
+        min-height: 120%;
+
+        .area {
+            margin-bottom: 10px;
+
+            .title {
+                font-size: 14px;
+                color: #bbb;
+                font-weight: 600;
+            }
+
+            .hot-city-content {
+                .hot-city-item {
+                    display: inline-block;
+                    height: 34px;
+                    width: 32%;
+                    margin-right: 2%;
+                    margin-top: 10px;
+                    color: #585858;
+                    border: 1px solid #dadada;
+                    font-size: 15px;
+                    font-weight: 600;
+                    text-align: center;
+                    line-height: 34px;
+                    border-radius: 17px;
+                    box-sizing: border-box;
+
+                    &:nth-child(3n) {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

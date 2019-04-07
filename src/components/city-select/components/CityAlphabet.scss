@@ -1,0 +1,14 @@
+.alphabet-list {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    list-style: none;
+    padding: 0;
+
+    .alphabet-item {
+        font-size: 14px;
+        text-align: center;
+        line-height: 20px;
+        color: #158ff1;
+    }
+}
